@@ -1,0 +1,27 @@
+{
+  "name": "@lucacelli/ai-ready-website-to-markdown-rag-crawler",
+  "version": "2.1.0",
+  "description": "Convert any website or documentation portal into clean boilerplate-free Markdown, overlapping vector RAG chunks with token estimates, H1-H3 hierarchy outlines, and ready-to-deploy /llms.txt index files.",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://apify.com/lucacelli/ai-ready-website-to-markdown-rag-crawler",
+  "keywords": [
+    "google-maps-scraper",
+    "google-maps-api",
+    "lead-generation",
+    "b2b-leads",
+    "email-extractor",
+    "apify-actor",
+    "local-seo",
+    "google-places-api",
+    "contact-scraper",
+    "phone-number-scraper",
+    "business-directory",
+    "n8n-workflow",
+    "mcp-server",
+    "web-scraping",
+    "sales-automation"
+  ],
+  "author": "Lucacelli Cloud Data Engineering",
+  "license": "MIT"
+}
