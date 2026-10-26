@@ -1,0 +1,20 @@
+{
+  "platform": "Clay.com HTTP API Enrichment Column",
+  "actorTitle": "Website to Clean Markdown, Vector RAG Chunks & llms.txt",
+  "actorStoreUrl": "https://apify.com/lucacelli/ai-ready-website-to-markdown-rag-crawler",
+  "costComparison": "$0.0005 per page ($0.50/1k) vs. $0.10–$0.50 per row in native Clay credits (98% savings)",
+  "httpApiConfiguration": {
+    "method": "POST",
+    "endpoint": "https://api.apify.com/v2/acts/lucacelli~ai-ready-website-to-markdown-rag-crawler/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyTemplate": {
+      "startUrls": [
+        "https://docs.apify.com",
+        "https://modelcontextprotocol.io"
+      ],
+      "chunkSizeTokens": 500
+    }
+  }
+}
